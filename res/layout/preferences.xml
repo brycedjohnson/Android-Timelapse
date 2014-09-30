@@ -1,0 +1,69 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+	    android:key="service_toggle"
+	    android:title="@string/service_toggle_title" />
+          
+    <PreferenceCategory
+            android:title="Timelapse Settings">
+		<EditTextPreference
+		     android:key="photo_time"
+		     android:title="@string/photo_time_title" 
+		     android:inputType="numberDecimal" 
+		     android:defaultValue="@string/photo_time_default" />
+
+		<EditTextPreference
+		     android:key="pause_before_photo_time"
+		     android:title="@string/pause_before_photo_time_title" 
+		     android:inputType="numberDecimal" 
+		     android:defaultValue="@string/pause_before_photo_time_default" />
+		 
+		<EditTextPreference
+		     android:key="inches_per_pause"
+		     android:title="@string/inches_per_pause_title" 
+		     android:inputType="numberDecimal" 
+		     android:defaultValue="@string/inches_per_pause_default" />
+		  
+		<CheckBoxPreference
+		     android:key="stepper_direction"
+		     android:title="@string/stepper_direction_title" 
+		     android:defaultValue="true" />		
+
+		<Preference
+		     android:key="total_time"
+		     android:title="@string/total_time_title" 
+		     android:defaultValue="@string/total_time_default" />		
+		     						     	
+	</PreferenceCategory>
+    <PreferenceCategory
+          android:title="Setup">	
+	  	<EditTextPreference
+		     android:key="speed"
+		     android:title="@string/speed_title" 
+		     android:inputType="numberDecimal" 
+		     android:defaultValue="@string/speed_default" />
+
+		<EditTextPreference
+		     android:key="dolly_length"
+		     android:title="@string/dolly_length_title" 
+		     android:inputType="numberDecimal" 
+		     android:defaultValue="@string/dolly_length_default" />	  	
+	  		  	
+		<EditTextPreference
+		     android:key="steps_per_inch"
+		     android:title="@string/steps_per_inch_title" 
+		     android:inputType="number" 
+		     android:defaultValue="@string/steps_per_inch_default" />
+		<EditTextPreference
+		     android:key="microsteps"
+		     android:title="@string/microsteps_title" 
+		     android:inputType="number" 
+		     android:defaultValue="@string/microsteps_default" />
+		<EditTextPreference
+		     android:key="canon_ticks"
+		     android:title="@string/canon_ticks_title" 
+		     android:inputType="number" 
+		     android:defaultValue="@string/canon_ticks_default" />
+
+        </PreferenceCategory>
+</PreferenceScreen>

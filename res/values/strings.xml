@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timelapse</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="service_toggle_title">Start Timelapse</string>
+    <string name="photo_time_title">Photo Time</string>
+    <string name="photo_time_default">5</string>
+
+    <string name="pause_before_photo_time_title">Pause Before Photo Time</string>
+    <string name="pause_before_photo_time_default">1</string>
+    
+ 	<string name="stepper_direction_title">Stepper Direction</string>
+    <string name="stepper_direction_default">true</string>
+
+    <string name="total_time_title">Total Time</string>
+    <string name="total_time_default">0</string>
+    
+    <string name="steps_per_inch_title">Steps Per Inch</string>
+    <string name="steps_per_inch_default">180</string>
+    
+    <string name="microsteps_title">Microsteps</string>
+    <string name="microsteps_default">8</string>
+
+    <string name="speed_title">Steeper Speed (Inches Per Second)</string>
+    <string name="speed_default">1</string>
+
+    <string name="dolly_length_title">Dolly Length</string>
+    <string name="dolly_length_default">30</string>
+    
+    <string name="inches_per_pause_title">Inches Per Pause</string>
+    <string name="inches_per_pause_default">1</string>
+    
+    <string name="canon_ticks_title">Canon Ticks</string>
+    <string name="canon_ticks_default">14</string>    
+</resources>
